@@ -3,7 +3,7 @@
     "info": { "title": "Edge API", "version": "1" },
     "servers": [
         {
-            "url": "https://edge.api.flagsmith.com/api/v1/",
+            "url": "https://edge.api.flagsmith.com/api/v1",
             "description": "Edge API"
         }
     ],
