@@ -225,7 +225,7 @@
                                 "type": "integer"
                             },
                             {
-                                "type": "float"
+                                "type": "number"
                             }
                         ],
                         "description": "Can be any of the following types: string, integer, boolean, float"
