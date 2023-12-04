@@ -40,7 +40,11 @@
                         "name": "identifier",
                         "in": "query",
                         "description": "Identity Key",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Number of identities must not be more than 100"
+                        }
                     }
                 ],
                 "responses": {
