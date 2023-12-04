@@ -43,7 +43,7 @@
                         "required": true,
                         "schema": {
                             "type": "string",
-                            "description": "Number of identities must not be more than 100"
+                            "description": "The string referencing the Identity"
                         }
                     }
                 ],
@@ -285,7 +285,6 @@
                 }
             },
             "IdentitiesRequestData": {
-                "required": true,
                 "type": "object",
                 "properties": {
                     "traits": {
@@ -300,7 +299,6 @@
                 }
             },
             "BulkIdentitiesData": {
-                "required": true,
                 "properties": {
                     "data": {
                         "type": "array",
